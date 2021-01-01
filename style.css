@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(95, 95, 7);
+    font-family: sans-serif;
+    color: white;
+}
+
+.header {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-container {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    /* padding: 30px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.temperature-container {
+    /* padding-top: 30px; */
+    padding-bottom: 10px;
+    display: flex;
+    font-size: 29px;
+    /* flex-direction: column; */
+}
+
+.weather-extra {
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px; */
+    height: 30vh;
+}
+
+.extra {
+    padding: 60px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    text-align: center;
+    height: 70px;
+}
+
+.img {
+    /* height: 20vh; */
+    /* padding: 10px; */
+    /* margin: 10px; */
+}

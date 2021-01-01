@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js"></script>
+		<title>Weather App</title>
+	</head>
+	<body>
+		<div class="header">
+			<h1 class="header-text">WEATHER</h1>
+			<p
+				class="location"
+				style="padding-top: 10px"
+				style="font-size: 18px; font-weight: 100"
+			>
+
+			</p>
+			<p
+				class="date"
+				style="padding-top: 10px"
+				style="font-size: 18px; font-weight: 100"
+			>
+				
+			</p>
+		</div>
+
+		<div class="weather-container">
+			<div class="weather-icon">
+				<h2></h2>
+			</div>
+			<div class="temperature-container">
+				<h2 class="temperature" style="padding: 5px; cursor: pointer;"></h2>
+				<span class="temperature-span">°C</span>
+			</div>
+			<p class="temperature-desc" style="font-size: 18px; font-weight: 100">
+				
+			</p>
+		</div>
+
+		<div class="weather-extra">
+			<div class="extra">
+				<div>
+					<img
+						src="https://www.shareicon.net/data/128x128/2016/04/07/745786_weather_512x512.png"
+						width="60"
+						height="60"
+						class="extra-icon"
+					/>
+				</div>
+				<div>
+					<h2>Humidity</h2>
+					<p style="font-size: 18px;" class="humidity"></p>
+				</div>
+			</div>
+			<div class="extra">
+				<div>
+					<img
+						src="images/pressure.png"
+						width="60"
+						height="60"
+						class="extra-icon"
+					/>
+				</div>
+				<div>
+					<h2>Pressure</h2>
+					<p style="font-size: 18px;" class="pressure"></p>
+				</div>
+			</div>
+			<div class="extra">
+				<div class="img"">
+					<img
+						src="images/wind-sign.png"
+						width="60"
+						height="60"
+						class="extra-icon"
+					/>
+				</div>
+				<div>
+					<h2>Wind speed</h2>
+					<p style="font-size: 18px;" class="wind-speed"></p>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
